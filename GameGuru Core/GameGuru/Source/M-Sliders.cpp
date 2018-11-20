@@ -1434,7 +1434,7 @@ void sliders_draw ( void )
 		//  Special tab mode to show JUST FPS score
 		if (  g.tabmode == 0 && g.tabmodeshowfps != 0 ) 
 		{
-			pastebitmapfont( cstr(cstr(Str(GetDisplayFPS()))+"fps").Get(),8,8,1,255);
+			pastebitmapfont(cstr(cstr(Str(GetDisplayFPS())) + "fps mem: " + cstr(Str(SMEMAvailable(1) / 1024)) + "mb.").Get(), 8, 8, 1, 255);
 		}
 
 		//  Special hardware info mode and controls

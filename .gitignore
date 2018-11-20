@@ -1,5 +1,25 @@
 *.sdf
 *.ipch
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+.vs*/
+/GameGuru*/
 GameGuru IDE/Debug/GameGuru.tlog/BscMake.command.1.tlog
 GameGuru IDE/Debug/GameGuru.tlog/bscmake.read.1.tlog
 GameGuru IDE/Debug/GameGuru.tlog/bscmake.write.1.tlog
@@ -69,16 +89,6 @@ GameGuru/Files/mapbank/Issues/ISSUE142-Test-Waypoint.fpm
 GameGuru/Files/mapbank/_A_TEST_MAP2.fpm
 GameGuru/Files/mapbank/_A_TEST_MAP2.dat
 GameGuru/Files/mapbank/Custom Export.dat
-*.log
-*.pdb
-*.obj
-*.sbr
-*.pch
-*.exe
-*.suo
-*.user
-*.bak
-*.db
 GameGuru Core/UseENCRYPTION - Shortcut.lnk
 GameGuru Core/UseNONE - Shortcut.lnk
 sh.exe.stackdump
